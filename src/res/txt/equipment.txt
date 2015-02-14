@@ -64,7 +64,7 @@
 2:30:Agility Badge:Agility Badge:Super Agility Badge:Rare Agility Badge
 2:31:Shoes:Ordinary Shoes:Lightweight Shoes:Ultra-Lightweight Shoes
 2:32:Boots:Well-Worn Boots:Stylish Boots:Expensive Boots
-2:33:Turbo Boost:Turbo Boost:Deluxe Turbo Boost:First-Class Turbo Boost
+2:3C:Turbo Boost:Turbo Boost:Deluxe Turbo Boost:First-Class Turbo Boost
 2:34:Booster:Standard Booster:Deluxe Booster:Prototype Booster
 2:35:Pumps:Discount Pumps:Expensive Pumps:Designer Pumps
 2:36:Shin Guards:Ordinary Shin Guards:Lightweight Shin Guards:Ultra-Lightweight Shin Guards
@@ -73,4 +73,4 @@
 2:39:Rocketbarrel Pack:High-Speed Rocketbarrel Pack:Mach-Speed Rocketbarrel Pack:Light-Speed Rocketbarrel Pack
 2:3A:Microchip:Ordinary Microchip:High-Performance Microchip:Ultra-Performance Microchip
 2:3B:Feather:Enchanted Feather:Shiny Feather:Shimmering Feather
-2:3C:X Speed:X Speed:Threefold X Speed:Sixfold X Speed
+2:33:X Speed:X Speed:Threefold X Speed:Sixfold X Speed

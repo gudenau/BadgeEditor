@@ -83,11 +83,11 @@ public class RealEquipment {
 		}else{
 			switch(level){
 			case 0:
-				return e.level0Name;
+				return e.level2Name;
 			case 1:
 				return e.level1Name;
 			case 2:
-				return e.level2Name;
+				return e.level0Name;
 			default:
 				return e.name;
 			}
