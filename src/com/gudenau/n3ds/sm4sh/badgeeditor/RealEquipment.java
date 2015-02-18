@@ -56,17 +56,20 @@ public class RealEquipment {
 			equipment[i] = new RealEquipment(
 					data[0],
 					((long)data[1] & 0xFF) | ((((long)data[2]) & 0xFF) << 8) | ((((long)data[3]) & 0xFF) << 16) | ((((long)data[4]) & 0xFF) << 24) | ((((long)data[5]) & 0xFF) << 32) | ((((long)data[6]) & 0xFF) << 40) | ((((long)data[7]) & 0xFF) << 48),
-					(short)(data[8] | (data[9] << 8)),
-					(short)(data[10] | (data[11] << 8)),
-					(short)(data[12] | (data[13] << 8)),
+					//(short)((data[8] & 0x00FF) | ((data[9] << 8) & 0xFF00)),
+					//(short)((data[10] & 0x00FF) | ((data[11] << 8) & 0xFF00)),
+					//(short)((data[12] & 0x00FF) | ((data[13] << 8) & 0xFF00)),
+					(short)((((short)(data[8])) & 0x00FF) | (((short)(data[9]) << 8) & 0xFF00)),
+					(short)((((short)(data[10])) & 0x00FF) | (((short)(data[11]) << 8) & 0xFF00)),
+					(short)((((short)(data[12])) & 0x00FF) | (((short)(data[13]) << 8) & 0xFF00)),
 					data[14],
 					data[15],
 					data[16],
 					data[17],
-					(short)(data[18] | (data[19] << 8)),
+					(short)(data[18] | ((short)data[19] << 8)),
 					data[20],
 					data[21],
-					(short)(data[22] | (data[23] << 8))
+					(short)(data[22] | ((short)data[23] << 8))
 					);
 		}
 		
@@ -180,7 +183,5 @@ public class RealEquipment {
 		}
 		
 		isValid = isValid && category != -1;
-		
-		System.out.println(isValid + " " + category);
 	}
 }
